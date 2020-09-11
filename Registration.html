@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title></title>
+</head>
+<body>
+  <form action="action_page.php">
+  <div class="container">
+    <h1>Registration Form</h1>
+<br>
+    <form>
+  <label for="fname"><b>First name</b></label>
+      <br>
+ <input type="fname" placeholder="Enter First name" name="psw" id="psw" required>
+      <br>
+ <label for="lname"><b>Last name</b></label>
+      <br>
+  <input type="lname" placeholder="Enter Last name" name="psw" id="psw" required>
+</form>
+    <br>
+     <label for="course"><b>Gender</b></label>
+    <br>
+    <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other" required>
+  <label for="other">Other</label>
+    <br>
+      <label for="email"><b>Birthday</b></label>
+    <br>
+  <input type="date" id="birthday" name="birthday" required>
+    <br>
+   
+  <label for="course"><b>Course</b></label>
+      <br>
+  <select name="course" id="course" required>
+    <option value="SC">Select Course</option>
+    
+    <option value="CS">Computer Science</option>
+    <option value="IT">Information Technology</option>
+    <option value="IS">Information System</option>
+  </select>
+<br>
+ <label for="email"><b>Year level</b></label>
+    <br>
+  <input type="checkbox" id="1st" name="year" value="1st" required>
+  <label for="1st"> First Year</label><br>
+  <input type="checkbox" id="2nd" name="year" value="2nd" required>
+  <label for="2nd"> Second Year</label><br>
+  <input type="checkbox" id="3rd" name="year" value="3rd" required>
+  <label for="3rd"> Third Year</label><br>
+  <input type="checkbox" id="4th" name="year" value="4th" required>
+  <label for="4th"> Fourth Year</label>
+    <br>
+    <label for="email"><b>Email</b></label>
+    <br>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+<br>
+    <label for="psw"><b>Password</b></label>
+    <br>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+<br>
+    <hr>
+    <button type="submit" class="registerbtn">Register</button>  <input type="reset">
+  </div>
+</form>
+  </body>
+</html>
