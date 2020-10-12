@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Web</b>Midterm</a>
+     <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Portfolio</a>
+      <a href="#about" class="w3-bar-item w3-
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+      
+    </div>
+  </div>
+
+    <!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img src="https://i.postimg.cc/W4DddJ3R/spider-man-superhero-spider-man-into-the-spider-verse-miles-morales-wallpaper.jpg" alt="Architecture" width="1500" height="500">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>CO</b></span> <span class="w3-hide-small w3-text-light-grey">Arellano</span></h1>
+  </div>
+</header>
+
+    <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About us</h3>
+    <p> I'm Christian Arellano. I'm 21 years old, I'm currently studying at the University of Immaculate Conception taking the course of Information Technology. I'm really into aesthetic looks of web designing especially when it comes to User Interface. Simple yet eye catching and friendly enviroment. I'm still learning despite of me having hardtime, still I'm doing my best to. I hope you'll like my work and feel free to explore and critque it. 
+    </p>
+  </div>
+  
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Portfolio</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Poem</div>
+        <br>
+        <br>
+        <img src="https://i.postimg.cc/W1dFcS90/water.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Wish List</div>
+        <br>
+        <img src="https://i.postimg.cc/yY43C0MG/wish.jpg"  style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Calendar</div>
+        <br>
+        <img src="https://i.postimg.cc/nrtFgGXY/cal.jpg"  style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"></div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Registration Form</div>
+        <br>
+        <img src="https://i.postimg.cc/FsBqKsxw/reg.jpg"  style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Master Detail</div>
+        <br>
+        <br>
+        <img src="https://i.postimg.cc/XNwdJ2kW/master.jpg"  style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Calendar with CSS</div>
+        <br>
+        <br>
+        <img src="https://i.postimg.cc/T2zxk9zK/calcss.jpg"  style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Tribute</div>
+        <img src="https://i.postimg.cc/TPyFWkGd/tribute.jpg" " style="width:99%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
